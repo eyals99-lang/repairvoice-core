@@ -1,0 +1,10 @@
+
+
+numpy
+scipy
+librosa
+soundfile
+pesq       # למדידת איכות (KPI)
+tqdm       # לסרגלי התקדמות
+matplotlib # לויזואליזציה של ספקטרוגרמות
+voicefixer

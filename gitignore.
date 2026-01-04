@@ -1,0 +1,34 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+env/
+.ipynb_checkpoints/
+
+# --- Large Data & Audio Files ---
+# מתעלמים מכל קבצי האודיו והדאטה
+data/raw/*
+data/processed/*
+data/restored/*
+*.wav
+*.mp3
+*.flac
+
+# אבל שומרים על קובץ gitkeep כדי שמבנה התיקיות יישמר
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/restored/.gitkeep
+
+# --- Model Weights ---
+# מתעלמים ממשקלי המודלים הכבדים
+models/*
+*.pth
+*.pt
+*.ckpt
+*.tflite
+*.onnx
+
+# --- Docker ---
+# אם נוצרו קבצים זמניים של דוקר
+.dockerignore
